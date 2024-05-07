@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif; /* Use a more modern font */
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background */
+}
+
+.container {
+  max-width: 700px; /* Adjust container width */
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #fff; /* White background for the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3c4858; /* Dark blue for heading */
+  font-size: 24px; /* Larger heading */
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#newItem {
+  width: 100%; /* Match container width */
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Adjust font size for input field */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2e8b57; /* Sea green for buttons */
+  color: white;
+  font-size: 16px; /* Adjust font size for buttons */
+  transition: background-color 0.2s ease-in-out; /* Smoother button hover effect */
+}
+
+button:hover {
+  background-color: #38a169; /* Darker shade on hover */
+}
+
+#completedItemsButton { /* Optional: Styling for completed items button */
+  background-color: #f0f8ff; /* Light blue */
+  color: #3c4858; /* Dark blue */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px; /* Adjust font size for list items */
+  border-bottom: 1px solid #ddd; /* Add a subtle border for separation */
+  padding-bottom: 10px; /* Add some padding below the border */
+}
+
+.completed { /* Styling for completed items */
+  text-decoration: line-through;
+  color: #999;
+}
+
+.remove-item { /* Styling for remove button (optional) */
+  background-color: transparent;
+  border: none;
+  color: #999;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px; /* Adjust font size for remove button */
+}
